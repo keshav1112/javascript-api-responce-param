@@ -1,0 +1,20 @@
+body {
+  padding: 3rem;
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+}
+
+::marker {
+  content: " ";
+}
+
+.list li {
+  display: inline-flex;
+}
+
+figure img {
+  min-height: 150px;
+}
