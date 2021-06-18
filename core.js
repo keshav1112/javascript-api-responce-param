@@ -55,7 +55,7 @@ const postIdsUrls = async () => {
       body: JSON.stringify(_data),
       headers: {
         'Content-Type': 'application/json',
-          authorization: `Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJrZXNoYXZAY2FudmFzOC5jb20iLCJpYXQiOjE2MjM5MzM5ODksImV4cCI6MTYyNDAyMDM4OX0.rKFrFmykOnx2V-Tytn9D_2Gbczd5qaV21YxJODLo6Bk`,
+          authorization: `Bearer token-name`,
       },
     })
       .then((response) => response.json())
